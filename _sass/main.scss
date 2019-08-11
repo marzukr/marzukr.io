@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 125px;
+    margin-top: -140px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
