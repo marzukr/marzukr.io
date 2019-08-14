@@ -1,10 +1,11 @@
 p {
     text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     height: auto;
 }
@@ -16,4 +17,39 @@ img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: inherit;
+    transition: background-color 0.125s;
+}
+
+.header {
+    font-size: 3em;
+}
+
+.subhead {
+    font-size: 1.25em;
+    line-height: 2.25em;
+    color: #2f3640;
+}
+
+.regular {
+    line-height: 2.25em;
+    color: #2f3640;
+}
+
+.regular a:hover {
+    background-color: #e2e4eb;
+    // padding: 0.25em;
+    border-radius: 0.3em;
+    transition: 0.125s;
+    // color: #00a8ff;
+}
+
+.faded {
+    line-height: 2.25em;
+    font-size: 0.9em;
+    color: #c9cad1;
 }
