@@ -1,3 +1,18 @@
+:root {
+    color-scheme: light dark;
+    --subhead-color: #2f3640;
+    --regular-color: #2f3640;
+    --link-hover-color: #e2e4eb;
+}
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+        --subhead-color: white;
+        --regular-color: white;
+        --link-hover-color: #555;
+    }
+}
+
 p {
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
@@ -32,16 +47,16 @@ a:link, a:visited {
 .subhead {
     font-size: 1.25em;
     line-height: 2.25em;
-    color: #2f3640;
+    color: var(--subhead-color);
 }
 
 .regular {
     line-height: 2.25em;
-    color: #2f3640;
+    color: var(--regular-color);
 }
 
 .regular a:hover {
-    background-color: #e2e4eb;
+    background-color: var(--link-hover-color);
     // padding: 0.25em;
     border-radius: 0.3em;
     transition: 0.125s;
