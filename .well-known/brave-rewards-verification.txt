@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: marzuk.io
-Token: 431ca3cb0af6a87a59b657361d4675065015f8eb6aead7753ff25a9008cad397
